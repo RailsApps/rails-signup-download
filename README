@@ -1,0 +1,4 @@
+RECIPES
+["apps4", "controllers", "core", "deployment", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "tests4", "views"]
+PREFERENCES
+{:git=>true, :apps4=>"rails-devise-pundit", :authentication=>"devise", :authorization=>"pundit", :starter_app=>"admin_app", :quiet_assets=>true, :local_env_file=>false, :better_errors=>true, :pry=>false, :deployment=>"none", :dev_webserver=>"webrick", :prod_webserver=>"same", :database=>"sqlite", :templates=>"erb", :tests=>"rspec", :continuous_testing=>"none", :frontend=>"bootstrap3", :email=>"gmail", :devise_modules=>"default", :form_builder=>"simple_form"}
