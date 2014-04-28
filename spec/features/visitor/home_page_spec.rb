@@ -11,7 +11,8 @@ feature 'Home Page:' do
   #   When I visit the home page
   #   Then I should see "Home"
   scenario 'Visit the Home Page' do
-
+    visit root_path
+    expect(page).to have_content 'Home'
   end
 
 end
