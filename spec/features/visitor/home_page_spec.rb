@@ -12,7 +12,7 @@ feature 'Home Page:' do
   #   Then I should see "Home"
   scenario 'Visit the Home Page' do
     visit root_path
-    expect(page).to have_content 'Home'
+    expect(page).to have_content 'Welcome'
   end
 
 end
