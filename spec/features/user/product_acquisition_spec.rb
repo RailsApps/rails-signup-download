@@ -6,7 +6,7 @@ require 'spec_helper'
 #   So I can complete my acquisition
 feature 'Product Acquisition' do
 
-  # Scenario: Download the Product'
+  # Scenario: Download the Product
   #   Given I am a user
   #   When I click the 'Download' button
   #   Then I should receive a PDF file
