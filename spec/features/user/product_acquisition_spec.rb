@@ -6,11 +6,11 @@ require 'spec_helper'
 #   So I can complete my acquisition
 feature 'Product Acquisition' do
 
-  # Scenario: Download a PDF
+  # Scenario: Download the Product'
   #   Given I am a user
   #   When I click the 'Download' button
   #   Then I should receive a PDF file
-  scenario 'Download a PDF' do
+  scenario 'Download the Product' do
     user = FactoryGirl.create(:user)
     login(user.email, user.password)
     expect(page).to have_content 'Signed in successfully.'
