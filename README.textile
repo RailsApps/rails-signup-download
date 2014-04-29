@@ -1,0 +1,9 @@
+h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Signup Download)! Rails Signup Download
+
+Rails 4.1 example application that allows a visitor to sign up and download a PDF file.
+
+h2. WORK IN PROGRESS
+
+"MIT License":http://www.opensource.org/licenses/mit-license
+
+Copyright ©2014 Daniel Kehoe
