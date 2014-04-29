@@ -4,7 +4,7 @@ require 'spec_helper'
 #   As a visitor
 #   I want to visit a home page
 #   So I can learn more about the website
-feature 'Home Page:' do
+feature 'Home Page' do
 
   # Scenario: Visit the Home Page
   #   Given I am a visitor
