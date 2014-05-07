@@ -1,16 +1,16 @@
 require 'spec_helper'
 
-# Feature: Product Acquisition
+# Feature: Product acquisition
 #   As a user
 #   I want to download the product
 #   So I can complete my acquisition
-feature 'Product Acquisition' do
+feature 'Product acquisition' do
 
-  # Scenario: Download the Product
+  # Scenario: Download the product
   #   Given I am a user
   #   When I click the 'Download' button
   #   Then I should receive a PDF file
-  scenario 'Download the Product' do
+  scenario 'Download the product' do
     user = FactoryGirl.create(:user)
     login(user.email, user.password)
     expect(page).to have_content 'Signed in successfully.'
