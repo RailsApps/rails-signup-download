@@ -10,39 +10,48 @@ ________________________
 
 Recipes:
 
-* apps4
-* controllers
 * core
 * deployment
+* devise
 * email
 * extras
 * frontend
 * gems
 * git
 * init
-* models
-* prelaunch
+* learn_rails
+* locale
+* omniauth
+* pages
+* rails_bootstrap
+* rails_devise
+* rails_devise_pundit
+* rails_foundation
+* rails_mailinglist_signup
+* rails_omniauth
+* rails_signup_download
 * railsapps
 * readme
-* routes
-* saas
+* roles
 * setup
-* testing
-* tests4
-* views
+* tests
 
 Preferences:
 
 * git: true
-* apps4: rails-devise-pundit
+* apps4: rails-signup-download
+* announcements: none
 * authentication: devise
 * authorization: pundit
-* starter_app: admin_app
-* quiet_assets: true
-* local_env_file: false
 * better_errors: true
-* pry: false
 * deployment: none
+* devise_modules: false
+* form_builder: false
+* local_env_file: false
+* pry: false
+* quiet_assets: true
+* pages: users
+* locale: none
 * dev_webserver: webrick
 * prod_webserver: same
 * database: sqlite
@@ -51,8 +60,6 @@ Preferences:
 * continuous_testing: none
 * frontend: bootstrap3
 * email: gmail
-* devise_modules: default
-* form_builder: simple_form
 * rvmrc: true
 
 ________________________

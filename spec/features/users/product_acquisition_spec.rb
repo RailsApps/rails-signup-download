@@ -1,4 +1,5 @@
-require 'spec_helper'
+include Warden::Test::Helpers
+Warden.test_mode!
 
 # Feature: Product acquisition
 #   As a user
@@ -12,8 +13,9 @@ feature 'Product acquisition' do
   #   Then I should receive a PDF file
   scenario 'Download the product' do
     user = FactoryGirl.create(:user)
-    login(user.email, user.password)
-    expect(page).to have_content 'Signed in successfully.'
+    login_as(user, scope: :user)
+    visit root_path
+    expect(page).to have_content "You've signed up"
     click_link_or_button 'Download PDF'
     expect(page.response_headers['Content-Type']).to have_content 'application/pdf'
   end
