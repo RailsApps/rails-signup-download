@@ -1,6 +1,6 @@
 h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Signup Download)! Rails Signup Download
 
-Rails 4.1 example application that allows a visitor to sign up for an account and download a PDF file. The application requires:
+Rails 4.1 example application that allows a visitor to sign up for an account and download a PDF file. The application uses:
 
 * "Devise":https://github.com/plataformatec/devise for user management and authentication
 * "Pundit":https://github.com/elabs/pundit for authorization
@@ -35,8 +35,6 @@ This application extends the "rails-devise-pundit":https://github.com/RailsApps/
 The application can be used for a simple web application that offers an ebook in exchange for a visitor's email address. Asking for an email address gives the site owner a way to stay in touch with visitors who have downloaded the ebook, for updates or other offers.
 
 The application can be combined with the "rails-mailinglist-signup":https://github.com/RailsApps/rails-mailinglist-signup application to add the visitor's email address to a mailing list.
-
-This application is a foundation for the "rails-stripe-checkout":https://github.com/RailsApps/rails-stripe-checkout application that shows how to implement credit card payment for a file download.
 
 h4. Database
 
