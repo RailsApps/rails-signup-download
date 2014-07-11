@@ -3,9 +3,7 @@ class ProductsController < ApplicationController
   before_filter :identify_product
 
   def show
-    respond_to do |format|
-      format.pdf { send_file @path, :disposition => "attachment; filename=#{@file}" }
-    end
+    send_file @path, :disposition => "attachment; filename=#{@file}"
   end
 
   private
