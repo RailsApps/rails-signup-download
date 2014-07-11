@@ -8,7 +8,7 @@ class ProductsController < ApplicationController
 
   private
   def identify_product
-    valid_characters = "a-zA-Z0-9~!@$%^&*()#`_+-=<>\"{}|[];',?".freeze
+    valid_characters = "^[0-9a-zA-Z]*$".freeze
     unless params[:id].blank?
       @product_id = params[:id]
       @product_id = @product_id.tr("^#{valid_characters}", '')
@@ -24,4 +24,5 @@ class ProductsController < ApplicationController
     @path = "app/views/products/#{@product_id}.#{@format}"
     @file = "#{@product_id}.#{@format}"
   end
+
 end
