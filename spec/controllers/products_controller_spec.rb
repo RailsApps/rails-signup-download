@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe ProductsController do
 
   describe 'GET #show' do
