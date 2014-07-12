@@ -7,6 +7,10 @@ Warden.test_mode!
 #   So I can complete my acquisition
 feature 'Product acquisition' do
 
+  after(:each) do
+    Warden.test_reset!
+  end
+
   # Scenario: Download the product
   #   Given I am a user
   #   When I click the 'Download' button
@@ -15,7 +19,7 @@ feature 'Product acquisition' do
     user = FactoryGirl.create(:user)
     login_as(user, scope: :user)
     visit root_path
-    expect(page).to have_content "You've signed up"
+    expect(page).to have_content 'Download a free book'
     click_link_or_button 'Download PDF'
     expect(page.response_headers['Content-Type']).to have_content 'application/pdf'
   end
