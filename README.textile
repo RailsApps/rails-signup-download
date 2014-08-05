@@ -208,7 +208,7 @@ Set a robots.txt file to ban spiders if you want to keep your new site out of Go
 
 If you choose to create a GitHub repository, the generator will prompt you for a GitHub username and password.
 
-It is a good idea to use "RVM":https://rvm.io/, the Ruby Version Manager, and create a project-specific rvm gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
+It is a good idea to use "RVM":https://rvm.io/, the Ruby Version Manager, and create a project-specific RVM gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
 h4. Troubleshooting
 
@@ -224,7 +224,7 @@ See the article "Installing Rails":http://railsapps.github.io/installing-rails.h
 
 h3. Use RVM
 
-I recommend using "rvm":https://rvm.io/, the Ruby Version Manager, to create a project-specific gemset for the application. If you generate the application with the Rails Composer tool, you can create a project-specific gemset.
+I recommend using "RVM":https://rvm.io/, the Ruby Version Manager, to create a project-specific gemset for the application. If you generate the application with the Rails Composer tool, you can create a project-specific gemset.
 
 h3. Gems
 
@@ -354,7 +354,7 @@ If you don't want to use Unix environment variables, you can set each value dire
 
 h3. Roles
 
-Roles are defined in the *app/models/User.rb* file (the @User@ model).
+Roles are defined in the *app/models/user.rb* file (the @User@ model).
 
 <pre>
 class User < ActiveRecord::Base
