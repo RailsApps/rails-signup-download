@@ -3,16 +3,20 @@ h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Signup Download)! R
 Rails 4.1 example application that allows a visitor to sign up for an account and download a PDF file. The application uses:
 
 * "Devise":https://github.com/plataformatec/devise for user management and authentication
-* "Pundit":https://github.com/elabs/pundit for authorization
+* "Role-Based Authorization":http://railsapps.github.io/rails-devise-roles
 * "Bootstrap":http://getbootstrap.com/ or "Foundation":http://foundation.zurb.com/ front-end frameworks
 
 Use this example application as a starter app for your own web applications. The application is based on a simpler example application:
 
-* "rails-devise-pundit":https://github.com/RailsApps/rails-devise-pundit
+* "rails-devise-roles":http://railsapps.github.io/rails-devise-roles
 
-For a complete explanation of the code, see the tutorials:
+For a complete explanation of the code, see the tutorial:
 
-* "Rails and Pundit":http://railsapps.github.io/rails-devise-pundit/
+* "Rails Signup and Download Tutorial":https://tutorials.railsapps.org/rails-signup-download
+
+Other tutorials may be helpful:
+
+* "Role-Based Authorization":http://railsapps.github.io/rails-devise-roles
 * "Rails and Devise":http://railsapps.github.io/rails-devise/
 * "RSpec Tutorial":http://railsapps.github.io/rspec.html
 
@@ -30,7 +34,7 @@ If you're new to Rails, see "What is Ruby on Rails?":http://railsapps.github.io/
 
 h2. What Is Implemented -- and What Is Not
 
-This application extends the "rails-devise-pundit":https://github.com/RailsApps/rails-devise-pundit example application, showing how to provide a PDF file download when a visitor registers for an account.
+This application extends the "rails-devise-roles":https://github.com/RailsApps/rails-devise-roles example application, showing how to provide a PDF file download when a visitor registers for an account.
 
 The application can be used for a simple web application that offers an ebook in exchange for a visitor's email address. Asking for an email address gives the site owner a way to stay in touch with visitors who have downloaded the ebook, for updates or other offers.
 
@@ -53,6 +57,7 @@ This is one in a series of Rails example apps and tutorials from the "RailsApps 
 * "Bootstrap and Rails":http://railsapps.github.io/rails-bootstrap/ shows to integrate Bootstrap
 * "OmniAuth and Rails":https://github.com/RailsApps/rails-omniauth uses OmniAuth for authentication
 * "Devise and Rails":https://github.com/RailsApps/rails-devise uses Devise for authentication
+* "Role-Based Authorization":http://railsapps.github.io/rails-devise-roles using simple roles
 * "Pundit and Rails":https://github.com/RailsApps/rails-devise-pundit uses Pundit for authorization
 
 h2. Accounts You Will Need
@@ -120,9 +125,9 @@ question  Starter apps for Rails 4.1. More to come.
       1)  learn-rails
       2)  rails-bootstrap
       3)  rails-foundation
-      4)  rails-mailinglist-signup
-      5)  rails-omniauth
-      6)  rails-devise
+      4)  rails-omniauth
+      5)  rails-devise
+      6)  rails-devise-roles
       7)  rails-devise-pundit
       8) rails-signup-download
 </pre>
