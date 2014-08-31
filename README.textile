@@ -38,8 +38,6 @@ This application extends the "rails-devise-roles":https://github.com/RailsApps/r
 
 The application can be used for a simple web application that offers an ebook in exchange for a visitor's email address. Asking for an email address gives the site owner a way to stay in touch with visitors who have downloaded the ebook, for updates or other offers.
 
-The application can be combined with the "rails-mailinglist-signup":https://github.com/RailsApps/rails-mailinglist-signup application to add the visitor's email address to a mailing list.
-
 h4. Database
 
 The application requires a database. The example application uses SQLite with Rails ActiveRecord. You can easily substitute PostgreSQL, MySQL, or other databases.
@@ -236,7 +234,6 @@ h3. Gems
 Here are the gems used by the application:
 
 * "Devise":http://github.com/plataformatec/devise for authentication and user management
-* "Pundit":https://github.com/elabs/pundit for authorization
 
 These gems make development easier:
 
