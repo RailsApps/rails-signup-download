@@ -15,6 +15,8 @@ group :development, :test do
 end
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'gibbon'
+gem 'sucker_punch'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
