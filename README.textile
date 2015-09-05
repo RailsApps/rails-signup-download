@@ -1,7 +1,5 @@
 h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Signup Download)! Rails Signup Download
 
-"!https://www.herokucdn.com/deploy/button.png(Deploy to Heroku)!":https://heroku.com/deploy
-
 Rails 4.2 example application that allows a visitor to sign up for an account and download a PDF file. The application uses:
 
 * "Devise":https://github.com/plataformatec/devise for user management and authentication
@@ -466,15 +464,9 @@ h2. Deploy to Heroku
 
 Heroku provides low cost, easily configured Rails application hosting.
 
-h4. One Click Deployment
-
-For one-click deployment, click the button to deploy to Heroku:
-
-"!https://www.herokucdn.com/deploy/button.png(Deploy to Heroku)!":https://heroku.com/deploy
-
 h4. From the Command Line
 
-Alternatively, you can deploy from the command line.
+You can deploy from the command line.
 
 <pre>
 $ git push origin master
